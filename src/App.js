@@ -101,7 +101,7 @@ const Home = () => {
                 key={i + item.type + item.name}
                 index={i}
               >
-                <li className='pa2'>{item.name} <DeleteButton state={state} setState={setState} index={i} /></li>
+                <li className='pa2 draggable'>{item.name} <DeleteButton state={state} setState={setState} index={i} /></li>
               </SortableItem>);
           }
         })}

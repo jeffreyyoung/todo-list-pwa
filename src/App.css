@@ -3,6 +3,14 @@ body, html {
   margin: 0;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
+.draggable:hover {
+  cursor: move;
+}
+
 .ml1 {
   margin-left: 5px;
 }
